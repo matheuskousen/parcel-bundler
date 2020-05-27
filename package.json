@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf ./development && rm -rf ./.cache && parcel public/*.html --out-dir development -p 3000 ",
-    "build": "parcel build public/*.html --out-dir dist --public-url ./"
+    "start": "parcel public/index.html --out-dir development -p 3000 ",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
   },
   "keywords": [],
   "author": "",
