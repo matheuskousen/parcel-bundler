@@ -920,6 +920,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@splidejs/splide@^2.4.9":
+  version "2.4.9"
+  resolved "https://registry.yarnpkg.com/@splidejs/splide/-/splide-2.4.9.tgz#bb709f2a6f1f202cc8671678fe4ca30d0bcd1e38"
+  integrity sha512-SnEFHS9/k+ye2yzG+WgKXgBydpDOROV6JriyLozayElMutus22CgRh7H+DxYSk6Or9mKHdlRRI5NPnWWl6z4hw==
+
 "@types/q@^1.5.1":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
@@ -2522,6 +2527,11 @@ grapheme-breaker@^0.3.2:
   dependencies:
     brfs "^1.2.0"
     unicode-trie "^0.3.1"
+
+gsap@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.4.2.tgz#2cd85c5792050642f89d5d4e2775d690d7131a37"
+  integrity sha512-2DMG5x9IeQ7csnVaGxmhN4v06sJ4MklqYETMBjfmPQoPel4O4yTvpnINKLDYz7D22xNRwwyd1YWWxpkKgYkuiw==
 
 har-schema@^2.0.0:
   version "2.0.0"
