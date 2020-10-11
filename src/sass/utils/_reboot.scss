@@ -1,15 +1,85 @@
 @import './colors/palletestwo';
-@import './fonts';
 @import './btn/btn';
 
-
+@import './face_fontes.scss';
 
 /* Box sizing rules */
+
+:root{
+    --FontPrimary:"Avenir";
+    --FontSecondary:'untitled';
+
+}
+
+
 *,
 *::before,
 *::after {
+    font-size: 70%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    font-family: var(--FontPrimary);
+    font-weight:400;
+    
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display:flex;
+    background: #000000;
+    color: #EDEDE9;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+
+}
+
+
+
+
+.container{
+    padding:0 6em;
+    text-align: center;
+    font-size: 3rem;
+
+    p{
+        max-width:28em;
+        margin: 1em auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+h1,h2{
+    
+    line-height: 0.8em;
+         font-family: var(--FontSecondary);
+}
+
+
+
+
+h1{
+    font-size: 12rem;
+}
+h2{
+    font-weight: 500;
+}
+
+
+
 
 /* Remove default padding */
 ul[class],
@@ -24,6 +94,7 @@ h2,
 h3,
 h4,
 p,
+ul,
 ul[class],
 ol[class],
 li,
@@ -36,13 +107,6 @@ dd {
     padding: 0;
 }
 
-/* Set core body defaults */
-body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-}
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
